@@ -11,7 +11,7 @@ app.use(express());
 app.use(express.json());
 app.use("/users",users);
 
-const port = process.env.PORT||8000;
+const port = 8000;
 
 app.get("/",(req,res) =>{
     res.send("<h1>Hello World</h1>");
